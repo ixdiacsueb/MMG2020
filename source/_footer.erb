@@ -1,0 +1,32 @@
+<footer>
+ <div class="grid-container">
+   <div class="grid-x grid-padding-x">
+      <div class="cell medium-4">
+       <h4>Master of Arts in Multimedia with a Concentration in Interaction Design</h4>
+       <p>Start your journey today.</p>
+        <ul class="menu horizontal">
+        <li>
+           <a href="https://www.youtube.com/c/CSUEBMultimediaGraduateProgramHayward">
+           <i class="fab fa-youtube"></i></a></li>
+         <li>
+           <a href="https://www.facebook.com/csuebmultimedia/">
+           <i class="fab fa-facebook-square"></i></a></li>
+         <li>
+           <a href="https://www.instagram.com/ixdiacsueb/">
+           <i class="fab fa-instagram"></i></a></li>
+      </ul>
+   </div>
+    <div class="cell medium-4 ">
+      <h4>Contact Info</h4>
+      <ul class="fa-ul">
+      <li><span class="fa-li"><i class="fas fa-map-marker"></i></span><%= config.address %></li>
+      <li><span class="fa-li"><i class="fas fa-phone"></i></span><%= config.address %></li>
+      <li><span class="fa-li"><i class="fas fa-envelope"></i></span><%= link_to config.deptEmail, config.deptEmail %></li>
+      </ul>
+      </div>
+    <div class="cell medium-4">
+    <% link_to 'https://www.csueastbay.edu/' do %>
+      <%= image_tag 'csueb.sgmark.tag.KO.png' %>
+    <% end %>
+    </div>
+</footer>

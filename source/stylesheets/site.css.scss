@@ -1,0 +1,222 @@
+@import 'app.css';
+@import 'stickynav.css';
+@import 'marketing-site-footer.css';
+@import 'product-feature-section.css';
+@import 'marketing-site-hero.css';
+@import 'ms-content-section.css';
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto:100&display=swap');
+
+.no-js .top-bar {
+  display: none;
+}
+
+@media screen and (min-width: 40em) {
+  .no-js .top-bar {
+    display: block;
+  }
+
+  .no-js .title-bar {
+    display: none;
+  }
+}
+
+body {
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  line-height: 2rem;
+  color: #0a0a0a;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  color: inherit;
+  text-rendering: optimizeLegibility;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  text-transform: capitalize;
+}
+
+.h1 small,
+.h2 small,
+.h3 small,
+.h4 small,
+.h5 small,
+.h6 small,
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+  line-height: 0;
+  color: #cacaca;
+  text-transform: uppercase;
+}
+
+
+.h4,
+.h5,
+.h6,
+h4,
+h5,
+h6 {
+text-transform: capitalize;
+}
+
+.accordion-title{
+  font-weight: 400;
+  font-size: 1rem;
+  text-transform: capitalize;
+
+}
+
+.button.round {
+  border-radius: 5000px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+
+.h4,
+.h5,
+.h6,
+h4.section,
+h5.section,
+h6.section {
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+.section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+iframe {
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+/* Set a size for our map container, the Google Map will take up 100% of this container */
+#map {
+  width: 100%;
+  height: 500px;
+}
+
+.label {
+  width: 180px;
+  background-color: white;
+  color:black;
+}
+.duplicateLink{
+    display:inline-block;
+    -webkit-appearance: initial;
+    background-color: rgba(255,255,255,0);
+    cursor: pointer;;
+    align-items: baseline;
+    color: inherit;
+    text-align: start !important;
+    padding:0 0 0 10px;
+    line-height: 1.2rem;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 110px;
+    font-size: .8rem;
+    font-weight: 400;
+}
+input[type="file"] {
+  position:relative;
+  top:-8px;
+  -webkit-appearance: initial;
+  background-color: rgba(255,255,255,0);
+  cursor: pointer;
+  align-items: baseline;
+  color: inherit;
+  text-align: start !important;
+  padding: 0 2px;
+  border: 1px solid #cfcfcf;
+  border-radius: 5px;
+  width: 250px;
+  font-size: .8rem;
+}
+#tfa_22-L:before{content: "Attach your Statement of Purpose";}
+#tfa_22\[0\]-L:before{content: "Attach your Statement of Purpose";}
+
+.removeSpan:before{
+  font-family: Lato, sans-serif;
+  font-size: .8rem;
+  font-weight: 400;
+  color:#000000;
+  content: "Add another file or  ";
+}
+.removeSpan{
+  font-family: "FontAwesome";
+  content:"\f0ee";
+  color:blue;
+  left:30px;
+}
+.removeSpan:after{
+  font-family: Lato, sans-serif;
+  font-size: .8rem;
+  font-weight: 400;
+  color:#000000;
+  content: " this file.";
+}
+.removeLink span{
+  font-family: Lato, sans-serif;
+  font-size: .8rem;
+  font-weight: 400;
+  text-transform: uppercase;;
+  border: 1px solid #ccc;
+}
+
+
+.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+nav, .title-bar, .top-bar, .top-bar ul{
+background-color: rgba(235,240,236,1);
+}
+// li.menu-text::before{content: url('/images/logo.png');}
+#topmenu li, #topmenu li a{line-height: 3rem;
+}
+#topmenu li a:hover{
+  background-color: rgba(245,250,246, 1);
+  border-radius: 5px;
+}
+li.menu-text {
+  background:url(/images/logo.png) no-repeat;
+  background-size: contain;
+  text-indent: 80px;
+  margin-bottom: 10px;
+}
+
+button.menu-icon{
+  background-color: rgba(235,240,236,1);
+  z-index: 100;
+  color:black;
+}
+@media screen and (max-width: 39.9375em) {
+.vertical.medium-horizontal.menu li a{
+  text-align: center;
+ border-radius: 5px;
+ border: 1px solid rgba(245,250,246, 1);
+ margin-bottom:5px;
+}
+}

@@ -1,0 +1,45 @@
+/* $hero-height: 60vh;
+$primary-color: rgba(81,90,157,1);
+$secondary-color: rgba(84,195,235,1);
+$accent-color: rgba(236,92,157,1);
+$white:#FFFFFF;
+$black:#000000;
+$global-width:1250px; */
+
+
+.marketing-site-hero {
+  background: url("/images/desk2.jpeg") top right no-repeat;
+  height: 65vh;
+  background-size: cover;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.marketing-site-hero-content {
+  max-width: 75rem;
+  margin: 0 auto;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.marketing-site-hero-content h1 {
+  font-size: 2rem;
+}
+
+
+
+@media screen and (min-width: 40em) {
+  .marketing-site-hero-content {
+    padding-left: 50%;
+  }
+  .marketing-site-hero {
+    background-position: center center;
+  }
+  .marketing-site-hero-content h1 {
+    font-size: 3rem;
+  }
+}

@@ -1,0 +1,65 @@
+---
+title: Contact Information
+---
+
+<div class="grid-container ">
+  <div class="grid-x grid-margin-x">
+    <div class="cell small-12 ">
+      <p>Published on Jan 1, 2020</p>
+      <h1>Contact Us</h1>
+    </div>
+    <div class="cell small-12 ">
+      <p>We are a small graduate bootstrapped program at a public university. The best way to answer your questions is to ask the right person. Below is the contact information for the different parts of the university that you may need to access. We
+        inviste you to take full advantage of these.</p>
+      <table class="unstriped">
+        <thead>
+          <tr>
+            <th width="300">Name</th>
+            <th>Location</th>
+            <th width="150">Phone</th>
+            <th width="150">Email</th>
+            <th width="150">Web</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Multimedia Graduate Program</td>
+            <td>Art & Education Building, 1231b</td>
+            <td>+1(510) 885-3111</td>
+            <td>multimedia@csueastbay.edu</td>
+            <td><%= link_to 'Web Link', 'https://multimedia.csueastbay.edu', :class =>"button alert"%></td>
+          </tr>
+          <tr>
+            <td>Department of Art</td>
+            <td>Art & Education Building, 1233</td>
+            <td>+1(510) 885-3111</td>
+            <td>artdept@csueastbay.edu</td>
+            <td><%= link_to 'Web Link', 'https://www.csueastbay.edu/art/index.html', :class =>"button alert"%></td>
+          </tr>
+          <tr>
+            <td>Office of Admissions</td>
+            <td>Student and Faculty Support Building</td>
+            <td>+1(510) 885-3500</td>
+            <td>gradadmission@csueastbay.edu</td>
+            <td><%= link_to 'Web Link', 'https://www.csueastbay.edu/admissions/graduate-requirements/index.html', :class =>"button alert"%></td>
+          </tr>
+          <tr>
+            <td>International Admissions Office</td>
+            <td>Student and Faculty Support Building</td>
+            <td>+1(510) 885-7571</td>
+            <td>aiao@csueastbay.edu</td>
+            <td><%= link_to 'Web Link', 'https://www.csueastbay.edu/iao/index.html', :class =>"button alert"%></td>
+          </tr>
+          <tr>
+            <td>Cal State Apply Applicant Help Center</td>
+            <td>N/A</td>
+            <td>+1(857) 304-2087</td>
+            <td>alstateapply@liaisoncas.com</td>
+            <td><%= link_to 'Web Link', 'https://help.liaisonedu.com/Cal_State_Apply_Applicant_Help_Center', :class =>"button alert"%></td>
+          </tr>
+        </tbody>
+      </table>
+        <%= partial "map" %>
+    </div>
+  </div>
+</div>
