@@ -5,6 +5,7 @@ activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
+
 activate :livereload,
          :livereload_css_target => nil
 
@@ -72,4 +73,5 @@ configure :build do
    activate :minify_css
    activate :minify_javascript
    activate :minify_html
+   set :build_dir, 'docs'
  end
