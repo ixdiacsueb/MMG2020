@@ -6,8 +6,11 @@ activate :autoprefixer do |prefix|
 end
 
 
-activate :livereload,
-         :livereload_css_target => nil
+activate :livereload
+activate :directory_indexes
+
+
+
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
@@ -19,7 +22,7 @@ page '/*.txt', layout: false
 
 set :haml, :format => :html5
 set :markdown_engine, :kramdown
-
+set :relative_links, true
 
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
