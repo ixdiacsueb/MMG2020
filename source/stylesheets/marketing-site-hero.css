@@ -8,7 +8,7 @@ $global-width:1250px; */
 
 
 .marketing-site-hero {
-  background: url("/images/desk2.jpeg") top right no-repeat;
+  background: url("images/desk2.jpeg") top right no-repeat;
   height: 65vh;
   background-size: cover;
   display: -webkit-flex;

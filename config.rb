@@ -7,6 +7,7 @@ end
 
 
 activate :livereload
+activate :relative_assets
 #activate :directory_indexes
 
 # Layouts
@@ -63,5 +64,6 @@ configure :build do
    #activate :minify_css
    #activate :minify_javascript
    #activate :minify_html
+
    set :build_dir, 'docs'
  end
