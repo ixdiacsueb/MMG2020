@@ -9,9 +9,6 @@ end
 activate :livereload
 activate :directory_indexes
 
-
-
-
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
@@ -60,16 +57,6 @@ set :deptEmail, "multimedia@csueastbay.edu"
 
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
-
-
-# activate :deploy do |deploy|
-#   deploy.method = :git
-#   # Optional Settings
-#     deploy.remote   = 'mmg2020' # remote name or git url, default: origin
-#   # deploy.branch   = 'custom-branch' # default: gh-pages
-#   # deploy.strategy = :submodule      # commit strategy: can be :force_push or :submodule, default: :force_push
-#   # deploy.commit_message = 'custom-message'      # commit message (can be empty), default: Automated commit at `timestamp` by middleman-deploy `version`
-# end
 
 
 configure :build do
