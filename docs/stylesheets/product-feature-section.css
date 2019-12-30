@@ -5,7 +5,6 @@ $accent-color: rgba(236,92,157,1);
 $white:#FFFFFF;
 $black:#000000;
 $global-width:1250px; */
-
 .product-feature-section {
   background: #e6e6e6;
   padding: 1rem;
@@ -17,7 +16,7 @@ $global-width:1250px; */
   max-width: 100%;
   margin: 0 auto;
   -ms-flex-direction: column;
-      flex-direction: column;
+  flex-direction: column;
 }
 
 @media print, screen and (min-width: 40em) {
@@ -29,30 +28,29 @@ $global-width:1250px; */
 .product-feature-section-headline {
   margin-bottom: 2rem;
   text-align: center;
-
 }
 
 .product-feature-section-inner {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -ms-flex-pack: center;
-      justify-content: center;
+  justify-content: center;
 }
 
 .product-feature-section-feature {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: start;
-      align-items: flex-start;
+  align-items: flex-start;
   padding: 1rem;
   -ms-flex: 1 0 50%;
-      flex: 1 0 50%;
+  flex: 1 0 50%;
   -ms-flex-pack: start;
-      justify-content: flex-start;
+  justify-content: flex-start;
   -ms-flex-direction: column;
-      flex-direction: column;
+  flex-direction: column;
 }
 
 .product-feature-section-feature.top-left {
@@ -89,10 +87,10 @@ $global-width:1250px; */
   .product-feature-section-feature {
     padding: 2rem;
     -ms-flex: 1 0 50%;
-        flex: 1 0 50%;
+    flex: 1 0 50%;
     -ms-flex-pack: start;
-        justify-content: flex-start;
+    justify-content: flex-start;
     -ms-flex-direction: row;
-        flex-direction: row;
+    flex-direction: row;
   }
 }

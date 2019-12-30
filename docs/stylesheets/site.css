@@ -116,7 +116,7 @@ iframe {
   border: 1px solid grey;
   border-radius: 5px;
   width: 110px;
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-weight: 400; }
 
 input[type="file"] {
@@ -132,7 +132,7 @@ input[type="file"] {
   border: 1px solid #cfcfcf;
   border-radius: 5px;
   width: 250px;
-  font-size: .8rem; }
+  font-size: 0.8rem; }
 
 #tfa_22-L:before {
   content: "Attach your Statement of Purpose"; }
@@ -142,10 +142,10 @@ input[type="file"] {
 
 .removeSpan:before {
   font-family: Lato, sans-serif;
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-weight: 400;
   color: #000000;
-  content: "Add another file or  "; }
+  content: "Add another file or "; }
 
 .removeSpan {
   font-family: "FontAwesome";
@@ -155,14 +155,14 @@ input[type="file"] {
 
 .removeSpan:after {
   font-family: Lato, sans-serif;
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-weight: 400;
   color: #000000;
   content: " this file."; }
 
 .removeLink span {
   font-family: Lato, sans-serif;
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-weight: 400;
   text-transform: uppercase;
   border: 1px solid #ccc; }
@@ -174,10 +174,14 @@ input[type="file"] {
   top: 0;
   z-index: 10; }
 
-nav, .title-bar, .top-bar, .top-bar ul {
+.title-bar,
+.top-bar,
+.top-bar ul,
+nav {
   background-color: #ebf0ec; }
 
-#topmenu li, #topmenu li a {
+#topmenu li,
+#topmenu li a {
   line-height: 3rem; }
 
 #topmenu li a:hover {
@@ -185,7 +189,7 @@ nav, .title-bar, .top-bar, .top-bar ul {
   border-radius: 5px; }
 
 li.menu-text {
-  background: url(images/logo.png) no-repeat;
+  background: url("images/logo.png") no-repeat;
   background-size: contain;
   text-indent: 80px;
   margin-bottom: 10px; }

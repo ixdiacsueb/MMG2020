@@ -5,18 +5,16 @@ $accent-color: rgba(236,92,157,1);
 $white:#FFFFFF;
 $black:#000000;
 $global-width:1250px; */
-
-
 .marketing-site-hero {
-  background: url("images/desk2.jpeg") top right no-repeat;
+  background: url("../images/desk2.jpeg") top right no-repeat;
   height: 65vh;
   background-size: cover;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .marketing-site-hero-content {
@@ -30,15 +28,15 @@ $global-width:1250px; */
   font-size: 2rem;
 }
 
-
-
 @media screen and (min-width: 40em) {
   .marketing-site-hero-content {
     padding-left: 50%;
   }
+
   .marketing-site-hero {
     background-position: center center;
   }
+
   .marketing-site-hero-content h1 {
     font-size: 3rem;
   }
