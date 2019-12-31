@@ -189,7 +189,7 @@ nav {
   border-radius: 5px; }
 
 li.menu-text {
-  background: url("images/logo.png") no-repeat;
+  background: url("../images/logo.png") no-repeat;
   background-size: contain;
   text-indent: 80px;
   margin-bottom: 10px; }
